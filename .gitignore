@@ -17,6 +17,9 @@ coverage.html
 dockerscan-report.json
 *.sarif
 
+# scan-aisha.sh výstupy (reporty + logy mohou obsahovat tajemství)
+scan-results/
+
 # Testdata exceptions (needed for tests)
 !pkg/auth/testdata/*.json
 !**/testdata/*.json
